@@ -17,8 +17,16 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div>
+      <div className="flex gap-4 items-center">
         <Link href="/contact-us">Contact Us</Link>
+        <a
+          href="https://sanity-headless.netlify.app/"
+          className="px-4 py-2 bg-green-500 text-white font-bold rounded-3xl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog-CMS
+        </a>
       </div>
     </div>
   );

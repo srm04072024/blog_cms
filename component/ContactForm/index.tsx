@@ -19,8 +19,9 @@ const ContactForm = () => {
         email: values.email,
         message: values.message,
       });
+      alert("message sent!");
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   };
   return (

@@ -49,12 +49,12 @@ const ContactForm = () => {
           placeholder="Enter your email"
           className="outline-1 w-lg p-2 text-white  placeholder:text-gray-500 focus:outline-blue-500"
         ></Field>
-        <textarea
+        <Field
           id="message"
           name="message"
           placeholder="Enter your message"
           className="outline-1 w-lg p-2 text-white  placeholder:text-gray-500 focus:outline-blue-500"
-        ></textarea>
+        ></Field>
         <button
           type="submit"
           className="bg-neutral-500 rounded-2xl text-xl px-8 py-2 text-white "
